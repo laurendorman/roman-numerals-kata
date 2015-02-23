@@ -17,4 +17,7 @@ describe Romans do
   it 'converts 5 to V' do
     expect(subject.convert(5)).to eq("V")
   end
+  it 'converts 6 to VI' do
+    expect(subject.convert(6)).to eq("VI")
+  end
 end
