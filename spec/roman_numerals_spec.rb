@@ -68,4 +68,7 @@ describe Romans do
   it 'converts 945 to CMXLV' do
     expect(subject.convert(945)).to eq("CMXLV")
   end
+  it 'converts 1000 to M' do
+    expect(subject.convert(1000)).to eq("M")
+  end
 end
