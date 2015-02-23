@@ -47,4 +47,7 @@ describe Romans do
   it 'converts 90 to XC' do
     expect(subject.convert(90)).to eq("XC")
   end
+  it 'converts 95 to XCV' do
+    expect(subject.convert(95)).to eq("XCV")
+  end
 end
