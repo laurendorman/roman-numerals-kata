@@ -41,4 +41,7 @@ describe Romans do
   it 'converts 50 to L' do
     expect(subject.convert(50)).to eq("L")
   end
+  it 'converts 58 to LVIII' do
+    expect(subject.convert(58)).to eq("LVIII")
+  end
 end
