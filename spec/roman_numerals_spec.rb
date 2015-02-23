@@ -59,4 +59,7 @@ describe Romans do
   it 'converts 400 to CD' do
     expect(subject.convert(400)).to eq("CD")
   end
+  it 'converts 430 to CDXXX' do
+    expect(subject.convert(430)).to eq("CDXXX")
+  end
 end
