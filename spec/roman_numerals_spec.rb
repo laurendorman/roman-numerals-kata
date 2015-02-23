@@ -23,4 +23,13 @@ describe Romans do
   it 'converts 9 to IX' do
     expect(subject.convert(9)).to eq("IX")
   end
+  it 'converts 10 to X' do
+    expect(subject.convert(10)).to eq("X")
+  end
+  it 'converts 11 to XI' do
+    expect(subject.convert(11)).to eq("XI")
+  end
+  it 'converts 23 to XXIII' do
+    expect(subject.convert(23)).to eq("XXIII")
+  end
 end
