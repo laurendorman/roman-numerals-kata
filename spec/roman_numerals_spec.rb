@@ -53,4 +53,7 @@ describe Romans do
   it 'converts 100 to C' do
     expect(subject.convert(100)).to eq("C")
   end
+  it 'converts 101 to CI' do
+    expect(subject.convert(101)).to eq("CI")
+  end
 end
