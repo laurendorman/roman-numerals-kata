@@ -21,7 +21,7 @@ class Romans
   def convert(number)
     converted = ""
     @decimals_to_romans.each do |decimal, roman|
-      if number >= decimal
+      while number >= decimal
         converted << roman
         number -= decimal
       end
