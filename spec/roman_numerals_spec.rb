@@ -8,4 +8,7 @@ describe Romans do
   it 'converts 2 to II' do
     expect(subject.convert(2)).to eq("II")
   end
+  it 'converts 3 to III' do
+    expect(subject.convert(3)).to eq("III")
+  end
 end
