@@ -30,3 +30,13 @@ class Romans
   end
 
 end
+
+puts "Enter a number between 1 - 3000:"
+input = gets.chomp.to_i
+output = Romans.new.convert(input)
+
+if input == 0 or input > 3000
+  puts "Romans cannot caculate these mathematicals, please try again."
+else
+  puts "The decimal #{input} is #{output} in Roman Numerals."
+end
